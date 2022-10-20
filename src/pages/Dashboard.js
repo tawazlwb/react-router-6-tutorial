@@ -1,7 +1,8 @@
-export const Dashboard = () => {
+export const Dashboard = ({ user }) => {
   return (
     <section className='section'>
-      <h4>Dashboard</h4>
+      <h2>Hello, {user?.name}</h2>
+      <h5>Hello, {user?.email}</h5>
     </section>
   )
 }
