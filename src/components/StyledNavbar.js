@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom'
 
 export const StyledNavbar = () => {
-  const btnActiveStyle = ({ isActive }) => {
-    return { color: isActive ? 'red' : 'grey' }
-  }
+  // const btnActiveStyle = ({ isActive }) => {
+  //   return { color: isActive ? 'red' : 'grey' }
+  // }
 
   const btnActiveClass = ({ isActive }) => {
     return `link${isActive ? ' active' : ''}`
