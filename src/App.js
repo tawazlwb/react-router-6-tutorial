@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home, About, Products } from './pages'
 
 function App() {
-  console.log(Home)
   return (
     <BrowserRouter>
       <Routes>
